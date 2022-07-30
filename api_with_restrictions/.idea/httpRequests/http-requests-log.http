@@ -1,0 +1,454 @@
+GET http://localhost:8000/adv/
+Accept: application/json
+Authorization: Token c0ea3b0de7714f934a8fc5f0fe7dd506780819d9
+
+<> 2022-07-30T223121.200.json
+
+###
+
+GET http://localhost:8000/adv/
+Accept: application/json
+
+<> 2022-07-30T223107.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "DRAFT"
+}
+
+<> 2022-07-30T223100.200.json
+
+###
+
+GET http://localhost:8000/adv/
+Accept: application/json
+
+<> 2022-07-30T160254.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "CLOSED"
+}
+
+<> 2022-07-30T160251.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T160244.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T160241.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token c0ea3b0de7714f934a8fc5f0fe7dd506780819d9
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155733.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token c0ea3b0de7714f934a8fc5f0fe7dd506780819d9
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155730.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155716.500.html
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155703.500.html
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "OPEN"
+}
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155630.500.html
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead8
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155613.401.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-30T155606.500.html
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token c0ea3b0de7714f934a8fc5f0fe7dd506780819d9
+
+{
+  "status": "CLOSED"
+}
+
+<> 2022-07-30T155549.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token c0ea3b0de7714f934a8fc5f0fe7dd506780819d9
+
+{
+  "status": "CLOSED"
+}
+
+<> 2022-07-30T155546.200.json
+
+###
+
+GET http://localhost:8000/adv/
+Accept: application/json
+
+<> 2022-07-30T155532.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "CLOSED"
+}
+
+<> 2022-07-30T155517.500.html
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "CLOSE"
+}
+
+<> 2022-07-30T155428.500.html
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "CLOSE"
+}
+
+<> 2022-07-30T155415.500.html
+
+###
+
+GET http://localhost:8000/adv/?creator=2
+Accept: application/json
+
+<> 2022-07-30T155404.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token ec45caf03084cc4d91ca5b401cc3400bdcdead86
+
+{
+  "status": "CLOSE"
+}
+
+<> 2022-07-30T155351.500.html
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233237.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233236.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233234.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233233.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233232.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233231.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233229.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233228.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233221.429.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233220.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233213-1.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233213.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233212.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233211-1.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233211.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233210.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233209-1.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233209.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233208.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2022-10-01
+Accept: application/json
+
+<> 2022-07-27T233032.200.json
+
+###
+
+GET http://localhost:8000/adv/?created_at_before=2020-10-01
+Accept: application/json
+
+<> 2022-07-27T233023.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-27T232949.403.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-27T232947.403.json
+
+###
+
+GET http://localhost:8000/adv/?creator=2
+Accept: application/json
+
+<> 2022-07-27T231755.200.json
+
+###
+
+GET http://localhost:8000/adv/?creator=2
+Accept: application/json
+
+<> 2022-07-27T231753.200.json
+
+###
+
+PATCH http://localhost:8000/adv/7/
+Content-Type: application/json
+Authorization: Token 0dc110559ed834e981ffe7b107f637ab5c102808
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-07-27T231550.403.json
+
+###
+
+GET http://localhost:8000/adv/
+Accept: application/json
+
+<> 2022-07-27T231525.200.json
+
+###
+
